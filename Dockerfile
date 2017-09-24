@@ -1,4 +1,4 @@
-FROM docker:17.07.0-ce-git
+FROM docker:17.09.0-ce-git
 
 RUN apk add --no-cache \
   curl py-pip=9.0.1-r1
